@@ -1,0 +1,12 @@
+[Unit]
+Description=Challenge solver for dumbass.cloud
+Wants=network-online.target
+After=network.target network-online.target mariadb.service
+
+[Service]
+ExecStart=/usr/bin/env python /path/to/repo/scripts/solver.py
+Restart=always
+RuntimeMaxSec=1d
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,20 @@
+{
+  "article": "https://arca.live/b/aiart/64272115",
+  "database": {
+    "internal": {
+      "host": "localhost",
+      "port": 3389,
+      "database": "dumbass",
+      "user": "dumbass",
+      "password": "dumbass-password"
+    },
+    "external": {
+      "dsn": "mysql:host=host.containers.internal;dbname=dumbass",
+      "user": "dumbass",
+      "password": "dumbass-password"
+    }
+  },
+  "token": {
+    "expire": 10800
+  }
+}
